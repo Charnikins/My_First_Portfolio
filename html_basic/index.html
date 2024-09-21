@@ -4,31 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio - Home</title>
+    <style>
+        /* Simple styles for navigation */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+    </style>
 </head>
 <body>
 
     <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="tweets.html">Tweets</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tweets.html">Tweets</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">My Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Information</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <article>
             <h1>Welcome to My Portfolio</h1>
 
-            <h2>About Me</h2>
+            <h2 id="about">About Me</h2>
             <p>This is a brief introduction about myself.</p>
             
-            <h3>My Skills</h3>
+            <h3 id="skills">My Skills</h3>
             <p>My experience includes.</p>
             
-            <h4>Projects</h4>
+            <h4 id="projects">Projects</h4>
             <p>A selection of projects I have worked on.</p>
             
-            <h5>Contact Information</h5>
-            <p>Please contact me through provided platforms.</p>
+            <h5 id="contact">Contact Information</h5>
+            <p>Please contact me through the provided platforms.</p>
 
             <h4>Logo</h4>
             <a href="https://www.alx-internship.com">
@@ -39,12 +56,12 @@
         </article>
 
         <aside>
-            <p>Placeholder to add comment thread later.</p>
+            <p>placeholder to add comment thread later</p>
         </aside>
     </main>
 
     <footer>
-        <p>Made by Charndre Martin - <a href="<ANY LINK>" target="_blank">here</a>.</p>
+        <p>Made by Charndre Martin - <a href="<https://github.com/Charnikins>" target="_blank">here</a>.</p>
     </footer>
 
 </body>
